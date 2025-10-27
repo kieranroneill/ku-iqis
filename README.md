@@ -56,11 +56,13 @@ make install
 
 ### 3.1. Useful commands
 
-| Command             | Description                                                                                                                                                              |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `make install`      | Installs all Python dependencies, via `pip` into a virtual environment `.venv`.                                                                                          |
-| `make run_electro`  | Runs the Jupyter notebook file for the electro lab data analysis.                                                                                                        |
-| `make run_physics`  | Runs the Jupyter notebook file for the physics lab data analysis.                                                                                                        |
+| Command            | Description                                                                                                               |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------|
+| `make format`      | Formats all Python/Jupyter files. <br/><br/> ⚠️ **NOTE:** This is write action and will update the Python files in-place. |
+| `make install`     | Installs all Python dependencies, via `pip` into a virtual environment `.venv`.                                           |
+| `make lint`        | Runs the linter on the Python/Jupyter files.                                                                              |
+| `make run_electro` | Runs the Jupyter notebook file for the electro lab data analysis.                                                         |
+| `make run_physics` | Runs the Jupyter notebook file for the physics lab data analysis.                                                         |
 
 <sup>[Back to top ^][table-of-contents]</sup>
 

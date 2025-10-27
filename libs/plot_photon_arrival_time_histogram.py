@@ -8,7 +8,7 @@ def plot_photon_arrival_time_histogram(data: DataFrame, title: str = "Photon Arr
 
     Parameters
     ----------
-    data : pamdas.DataFrame
+    data : pandas.DataFrame
         The pandas data to plot.
     title : str, optional
         A custom title for the histogram, by default "Photon Arrival Time".

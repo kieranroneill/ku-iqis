@@ -34,9 +34,17 @@ Next, activate the virtual environment and install the dependencies to it:
 
 ```shell
 source .venv/bin/activate && \
+    pip install -r pip-requirements.txt && \
+    pip install -r dev-requirements.txt && \
     pip install -r requirements.txt && \
+    pre-commit install && \
     deactivate
 ```
+
+> ⚠️ **NOTE:** There are three `pip` dependency lock files:
+> * `pip-requirements.txt` - locks down the version of `pip` within the virtual environment.
+> * `dev-requirements.txt` - contains the necessary development dependencies, such as `black`, `flake8`, `isort`, and `pre-commit` that are not strictly necessary to run the project, but provide utility.
+> * `requirements.txt` - contains the necessary dependencies for the project.
 
 Alternatively, if Make is installed, simply run:
 

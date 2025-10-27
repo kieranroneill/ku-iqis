@@ -4,7 +4,7 @@ from pandas import DataFrame
 
 def plot_optics_coincidence_heatmap(data: DataFrame):
     """
-    Plots a heatmap of the coincidence counts for the polarizer optics
+    Plots a heatmap of the coincidence counts for the polarizer optics.
 
     Parameters
     ----------

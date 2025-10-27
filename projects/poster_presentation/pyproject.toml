@@ -1,8 +1,0 @@
-name = "poster_presentation"
-version = "1.0.0"
-description = "The data analysis and poster presentation for the electro and physics experiments at DTU."
-authors = [
-  { name = "Kieran O'Neill", email = "zcd890@alumni.ku.dk" }
-]
-readme = "README.md"
-requires-python = ">=3.10.12"
